@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+
+\title{Hello World!}
+\author{Emre Kutlu }
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Getting Started}
+\textbf{Hello World!} Today I am learning type \LaTeX . type \LaTeX is a great program for writing math. I can write inline math such as $a^2+b^2=c^2$. I can also give equations their own space:
+\begin{equation}
+\gamma^2+\theta^2=\omega^2 
+\end{equation}
+"Maxwell's equations" are named for James Clark Maxwell and are as follow:
+\begin{equation}
+\nabla \cdot E = \frac{\rho}{\epsilon_0} 
+\hspace{6cm}Gauss's Law
+\end{equation}
+\begin{equation}
+\nabla \cdot B = 0 
+\hspace{3.8cm} Gauss's Law for Magnetism
+\end{equation}
+\begin{equation}
+\nabla \times B - \mu_0 \epsilon_0 \frac{\partial E}{\partial t} = \mu_0 J 
+\hspace{1.65cm}Faraday's Law of Induction
+\end{equation}
+\begin{equation}
+\nabla \times E + \frac{\partial B}{\partial t} = 0 
+\hspace{3.4cm}Ampere's Circuital Law
+\end{equation}
+Equation 2,3,4 and 5 are some of the most important in Physics.
+\section{What about Matrix Equations?}
+
+\begin{gather*}  \begin{pmatrix}
+    a_{11} &  a_{12} & \cdots & a_{1n}\\
+    a_{21} &  a_{22} & \cdots & a_{2n}\\
+    \vdots & \vdots & \ddots & \vdots \\
+    a_{n1} &  a_{n2} & \cdots & a_{nn}\\
+\end{pmatrix}\begin{bmatrix}
+\ v_{1} \\ 
+\ v_{2} \\ 
+\vdots \\ 
+\ v_{n}
+\end{bmatrix} = \begin{matrix}
+\ w_{1} \\ 
+\ w_{2} \\ 
+\vdots \\ 
+w_{n}
+\end{matrix}
+\end{gather*}
+\end{document}
